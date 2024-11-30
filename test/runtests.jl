@@ -1,6 +1,5 @@
 using FunctionAssertions
-using Test
+using ReTestItems
 
-@testset "FunctionAssertions.jl" begin
-    # Write your tests here.
-end
+ReTestItems.runtests(FunctionAssertions)
+
